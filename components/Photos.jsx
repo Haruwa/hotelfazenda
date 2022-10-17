@@ -41,10 +41,10 @@ const Photos = () => {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#2A2A2A',
+    backgroundColor: '#000',
   },
   title: {
-    color: '#C7C7C7',
+    color: '#fff',
     fontWeight: 'bold',
     fontSize: 16,
     paddingTop: 24,

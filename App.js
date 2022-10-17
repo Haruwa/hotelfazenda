@@ -5,6 +5,7 @@ import AppBar from "./components/AppBar";
 import Apresentation from "./components/Apresentation";
 import Photos from "./components/Photos";
 import Pricing from "./components/Pricing";
+import Description from './components/Description';
 import { ScrollView, View } from "react-native";
 
 const theme = createTheme({
@@ -15,14 +16,14 @@ const theme = createTheme({
 export default function App() {
   return (
     <ThemeProvider theme={theme}>
-      <SafeAreaProvider style={{ backgroundColor: '#000' }}>
+      <SafeAreaProvider style={{ backgroundColor: '#B8EBD0' }}>
         <ScrollView>
           <View>
             <AppBar />
             <View>
               <Apresentation />
               <Photos />
-              <Pricing />
+              <Description />
             </View>
           </View>
         </ScrollView>
